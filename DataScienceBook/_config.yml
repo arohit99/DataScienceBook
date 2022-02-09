@@ -1,0 +1,12 @@
+# In _config.yml
+title: DataScienceBook
+author: Rohit
+logo: logo.png
+execute:
+  execute_notebooks: force
+
+repository:
+  url: https://github.com/arohit99/DataScienceBook  # Online location of your book
+  path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
+
