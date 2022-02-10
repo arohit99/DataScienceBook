@@ -7,4 +7,4 @@ parts:
     - file: src/MLFramework.md
   - caption: Ecommerce Analytics
     chapters: 
-    - file: src/ecommerce analytics 1.ipynb
+    - file: src/ecommerce analytics/ecommerce analytics 1.ipynb
