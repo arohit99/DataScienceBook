@@ -2,9 +2,13 @@
 format: jb-book
 root: src/intro.md
 parts:
-  - caption: Blogs
+  - caption: Articles
     chapters:
     - file: src/MLFramework.md
-  - caption: Ecommerce Analytics
-    chapters: 
-    - file: src/ecommerce analytics/ecommerce analytics 1.ipynb
+    - file: src/CV.md
+    - file: src/demo_cv.md
+  - caption: Projects
+    chapters:
+    - file: src/ecommerce analytics/ecommerce_project_intro.md
+      sections: 
+      - file: src/ecommerce analytics/ecommerce analytics 1.ipynb
