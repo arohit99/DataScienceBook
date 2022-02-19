@@ -8,7 +8,8 @@ Data scientists today frequently use notebook based environments to run experime
 
 * create an virtual environment and install dependencies using requirements.txt
 * explore data, run experiments using jupyter notebooks. However notebooks will not be used as part of final application package
-* create params.yml to pass parameters
+* create params.yml to pass parameters. [^params]
+[^params]: Code as Configuration approach.
 * create logs_config.yml to set up logging
 * config.py reads values from params/ logs_config and initilizes variables
 * custom_preprocess.py will handle data cleaning and data transformations. The functions will be specific to the input dataset and will return stardadised datasets ready for plotting, ML
