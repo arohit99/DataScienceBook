@@ -6,9 +6,9 @@ parts:
     chapters:
     - file: src/MLFramework.md
     - file: src/CV.md
-    - file: src/demo_cv.md
   - caption: Projects
     chapters:
     - file: src/ecommerce analytics/ecommerce_project_intro.md
       sections: 
       - file: src/ecommerce analytics/ecommerce analytics 1.ipynb
+      - file: src/ecommerce analytics/price-analysis.ipynb
