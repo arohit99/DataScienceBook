@@ -12,3 +12,4 @@ parts:
       sections: 
       - file: src/ecommerce analytics/ecommerce analytics 1.ipynb
       - file: src/ecommerce analytics/price-analysis.ipynb
+      - file: src/ecommerce analytics/ab testing.ipynb
