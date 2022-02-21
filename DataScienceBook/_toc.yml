@@ -5,7 +5,6 @@ parts:
   - caption: Articles
     chapters:
     - file: src/MLFramework.md
-    - file: src/CV.md
   - caption: Projects
     chapters:
     - file: src/ecommerce analytics/ecommerce_project_intro.md
