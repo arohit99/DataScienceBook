@@ -4,7 +4,8 @@ root: src/intro.md
 parts:
   - caption: Articles
     chapters:
-    - file: src/MLFramework.md
+    - file: src/articles/MLFramework.md
+    - file: src/articles/CustomerChurn.ipynb
   - caption: Projects
     chapters:
     - file: src/ecommerce analytics/ecommerce_project_intro.md
@@ -12,3 +13,6 @@ parts:
       - file: src/ecommerce analytics/ecommerce analytics 1.ipynb
       - file: src/ecommerce analytics/price-analysis.ipynb
       - file: src/ecommerce analytics/ab testing.ipynb
+  - caption: Blockchain Analytics  
+    chapters:
+    - file: src/blockchain analytics.md

@@ -6,17 +6,17 @@ This blog provides a short introduction to [arohit99/ML-Framework](https://githu
 
 Data scientists today frequently use notebook based environments to run experiments. While this facilitates rapid development, these are not efficient in production environment. This project builds upon concepts like OOPS, clean code, code modularisation (modules and packages), logging, config setting etc. The key steps in the development approach were:
 
-* create an virtual environment and install dependencies using requirements.txt
+* create an virtual environment and install dependencies using `requirements.txt`
 * explore data, run experiments using jupyter notebooks. However notebooks will not be used as part of final application package
-* create params.yml to pass parameters. [^params]
+* create `params.yml` to pass parameters. [^params]
 [^params]: Code as Configuration approach.
-* create logs_config.yml to set up logging
-* config.py reads values from params/ logs_config and initilizes variables
-* custom_preprocess.py will handle data cleaning and data transformations. The functions will be specific to the input dataset and will return stardadised datasets ready for plotting, ML
-* components.py contains core logic for data exploration and machine learning
-* pages.py builds streamlit views
-* app.py is the main module that connects all modules. It also takes care of logging/ mlflow tracking.
-* While python scipts creates the application, we have few other components such as- dockerfile to build container image that packages all code and its dependencies into a single deployable unit, herokudeployment.yml triggers a github action to build and push docker image to heroku platform
+* create `logs_config.yml` to set up logging
+* `config.py` reads values from params/ logs_config and initilizes variables
+* `custom_preprocess.py` will handle data cleaning and data transformations. The functions will be specific to the input dataset and will return stardadised datasets ready for plotting, ML
+* `components.py` contains core logic for data exploration and machine learning
+* `pages.py` builds streamlit views
+* `app.py` is the main module that connects all modules. It also takes care of logging/ mlflow tracking.
+* While python scipts creates the application, we have few other components such as- dockerfile to build container image that packages all code and its dependencies into a single deployable unit, `herokudeployment.yml` triggers a github action to build and push docker image to heroku platform
 
 ## Set up process
 
